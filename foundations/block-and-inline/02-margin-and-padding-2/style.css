@@ -1,13 +1,13 @@
 body {
-  background: #eee;
+  background: gray;
   font-family: sans-serif;
   padding: 10px;
 }
 
 .card {
   width: 400px;
-  background: #fff;
-  margin: auto;
+  background: white;
+  margin: 16px auto;
 }
 
 .title {
@@ -21,9 +21,7 @@ body {
 }
 
 .button-container {
-  background: #e3f4ff;
-  text-align: center;
-  
+  background: dodgerblue;
 }
 
 button {
