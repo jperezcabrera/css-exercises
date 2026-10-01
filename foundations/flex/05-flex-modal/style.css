@@ -16,6 +16,7 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +24,7 @@ body {
 }
 
 .icon {
+  flex: 0 0 auto;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -33,6 +35,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15px;
 }
 
 .close-button {
@@ -66,4 +69,31 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.mondongo {
+  display: flex;
+  flex-direction: column;
+}
+
+.primera {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px  15px  10px 0px;
+  align-items: center;
+}
+
+.segunda {
+  display: flex;
+  padding: 5px 0px 10px 0px;
+  gap: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text {
+  font-size: 15px;
 }
