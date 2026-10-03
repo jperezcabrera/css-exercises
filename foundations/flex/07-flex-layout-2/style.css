@@ -1,29 +1,72 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
 }
 
 .header {
-  height: 72px;
+  display: flex;
+  height: 70px;
+  font-weight: 900;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  padding: 0px 16px; 
+  align-items: center;
 }
 
 .footer {
+  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
+  display: flex;
+  flex: 0 0 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 10px;
+  flex: 1 0 500px
+
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mondongo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 20px;
 }
